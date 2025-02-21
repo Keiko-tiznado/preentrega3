@@ -1,0 +1,35 @@
+header{
+    background-color:   map-get($colores , color1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        font-size: map-get($fuentes , sm-titulos);
+        color: map-get($colores , color2);
+    }
+    nav{
+        margin: 15px;
+        ul{
+            list-style:none;
+            display: flex;
+            gap: 30px;
+        }
+        a{
+            color: map-get($colores , color2);
+        }
+    }
+}
+
+header:hover{
+    background-color: map-get($colores , color4 );
+}
+
+header{
+    a:hover{
+        color: map-get($colores , color3 );
+    }
+}

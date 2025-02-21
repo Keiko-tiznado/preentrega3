@@ -1,0 +1,25 @@
+footer{
+    background-color:   map-get($colores , color1);
+    p{
+        font-size: map-get($fuentes , sm-titulos);
+        color: map-get($colores , color2);
+        padding: 10px;
+    }
+    nav{
+        font-size: 20px;
+        ul{
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        text-decoration: none;
+        padding-bottom: 30px;
+        
+        }
+        a{
+            color: map-get($colores , color2);
+        }
+    }
+}
